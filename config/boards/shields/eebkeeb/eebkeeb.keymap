@@ -22,9 +22,9 @@
         };
         two_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans     &kp UNDERSCORE     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
-                &trans     &trans     &trans     &trans     &trans     &kp LT             &kp GT       &kp QMARK    &kp SEMI     &kp QUOTE
-                &trans     &trans     &trans     &trans     &trans     &trans             &kp HOME     &kp PG_UP    &kp PG_DN    &kp END     &trans
+                &trans     &trans     &trans     &trans     &trans     &kp UNDER     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
+                &trans     &trans     &trans     &trans     &trans     &kp LT        &kp GT       &kp QMARK    &kp SEMI     &kp QUOTE
+                &trans     &trans     &trans     &trans     &trans     &trans        &kp HOME     &kp PG_UP    &kp PG_DN    &kp END     &trans
             >;
         };
       /*  three_layer {
