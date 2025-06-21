@@ -20,6 +20,7 @@
                 &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &kp KP_N3
             >;
         };
+
         two_layer {
             bindings = <
                 &trans     &trans     &trans     &trans     &trans     &kp UNDER     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
