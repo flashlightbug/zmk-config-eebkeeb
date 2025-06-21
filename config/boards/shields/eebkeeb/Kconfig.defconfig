@@ -1,0 +1,6 @@
+if SHIELD_EEBKEEB
+
+config ZMK_EEBKEEB
+  default "eebkeeb"
+
+endif
