@@ -20,14 +20,14 @@
                 &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &kp KP_N3
             >;
         };
-        /*two_layer {
+        two_layer {
             bindings = <
                 &trans     &trans     &trans     &trans     &trans     &kp UNDER     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
                 &trans     &trans     &trans     &trans     &trans     &kp LT        &kp GT       &kp QMARK    &kp SEMI     &kp QUOTE
                 &trans     &trans     &trans     &trans     &trans     &trans        &kp HOME     &kp PG_UP    &kp PG_DN    &kp END     &trans
             >;
         };
-        three_layer {
+        /*three_layer {
             bindings = <
                 &kp EXCEL     &kp AT     &kp POUND     &kp DOLLAR     &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK     &kp LPAR     &kp RPAR
                 &trans        &trans     &trans        &trans         &trans        &kp KP_N3     &kp KP_N3    &kp KP_N2     &kp TILDE    &kp GRAVE
