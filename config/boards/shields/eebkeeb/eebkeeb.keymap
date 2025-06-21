@@ -13,14 +13,14 @@
                 &mt LCTRL Z   &mt LALT X   &lt 1 C   &lt 2 V   &lt 3 BSPC   &lt 4 SPACE   &lt 5 B   &kp N     &mt RCTRL M   &kp ENTER     &kp RGUI
             >;
         };
-        /*one_layer {
+        one_layer {
             bindings = <
                 &kp ESC     &trans     &trans     &trans     &trans     &kp MINUS     &kp EQUAL     &kp LBKT     &kp RBKT     &kp BSLH
                 &kp TAB     &trans     &trans     &trans     &trans     &kp COMMA     &kp DOT       &kp FSLH     &kp SEMI     &kp SINGLE_QUOTE
                 &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &kp KP_N3
             >;
         };
-        two_layer {
+        /*two_layer {
             bindings = <
                 &trans     &trans     &trans     &trans     &trans     &kp UNDER     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
                 &trans     &trans     &trans     &trans     &trans     &kp LT        &kp GT       &kp QMARK    &kp SEMI     &kp QUOTE
