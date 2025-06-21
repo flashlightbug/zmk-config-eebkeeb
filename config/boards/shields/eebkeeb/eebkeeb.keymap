@@ -13,7 +13,7 @@
                 &mt LCTRL Z   &mt LALT X   &lt 1 C   &lt 2 V   &lt 3 BSPC   &lt 4 SPACE   &lt 5 B   &kp N     &mt RCTRL M   &kp ENTER     &kp RGUI
             >;
         };
-        one_layer {
+        /*one_layer {
             bindings = <
                 &kp ESC     &trans     &trans     &trans     &trans     &kp MINUS     &kp EQUAL     &kp LBKT     &kp RBKT     &kp BSLH
                 &kp TAB     &trans     &trans     &trans     &trans     &kp COMMA     &kp DOT       &kp FSLH     &kp SEMI     &kp SINGLE_QUOTE
@@ -27,7 +27,7 @@
                 &trans     &trans     &trans     &trans     &trans     &trans        &kp HOME     &kp PG_UP    &kp PG_DN    &kp END     &trans
             >;
         };
-      /*  three_layer {
+        three_layer {
             bindings = <
                 &kp EXCEL     &kp AT     &kp POUND     &kp DOLLAR     &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK     &kp LPAR     &kp RPAR
                 &trans        &trans     &trans        &trans         &trans        &kp KP_N3     &kp KP_N3    &kp KP_N2     &kp TILDE    &kp GRAVE
