@@ -2,5 +2,5 @@ if SHIELD_EEBKEEB
 
 config ZMK_KEYBOARD_NAME
   default "EEBKEEB"
-
+  CONFIG_ZMK_BACKLIGHT=y
 endif
