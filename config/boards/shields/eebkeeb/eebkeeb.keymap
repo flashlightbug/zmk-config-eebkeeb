@@ -4,12 +4,12 @@
 
 
 
-/*
+
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick-tap-ms = <200>; };
 
-/ {
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -20,34 +20,9 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-        combo_z {
-            timeout-ms = <50>;
-            key-positions = <20 21>;
-            bindings = <&kp Z>;
-        };
-        combo_b {
-            timeout-ms = <50>;
-            key-positions = <21 22>;
-            bindings = <&kp B>;
-        };
-
-        combo_y {
-            timeout-ms = <50>;
-            key-positions = <23 24>;
-            bindings = <&kp Y>;
-        };
-
-        combo_slash {
-            timeout-ms = <50>;
-            key-positions = <24 25>;
-            bindings = <&kp SLASH>;
-        };
-    };
 
 
-*/
+
 
 
 
