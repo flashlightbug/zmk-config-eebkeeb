@@ -50,7 +50,7 @@
     chosen {
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
-        zmk,underglow = &led_strip; /// REMOVE
+        zmk,underglow = &led_strip; /// REMOVE IF YOU REMOVE THE CODE CHUNK BETWEEN THE BACKSLASHES ABOVE
     };
 
     default_kscan: kscan {
