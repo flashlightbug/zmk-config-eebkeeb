@@ -8,6 +8,10 @@
     quick-tap-ms = <200>;
 };
 
+&kp {
+    quick-tap-ms = <200>;
+};
+
 
 / {
 behaviors {
