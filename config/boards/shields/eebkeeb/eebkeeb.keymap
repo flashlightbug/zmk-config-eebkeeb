@@ -15,9 +15,9 @@
         };
         one_layer {
             bindings = <
-                &kp ESC     &trans     &trans     &trans     &trans     &kp MINUS     &kp EQUAL     &kp LBKT     &kp RBKT     &kp BSLH
-                &kp TAB     &trans     &trans     &trans     &trans     &kp COMMA     &kp DOT       &kp FSLH     &kp SEMI     &kp SINGLE_QUOTE
-                &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &trans
+                &kp ESC     &bootloader     &trans     &trans     &trans     &kp MINUS     &kp EQUAL     &kp LBKT     &kp RBKT     &kp BSLH
+                &kp TAB     &trans          &trans     &trans     &trans     &kp COMMA     &kp DOT       &kp FSLH     &kp SEMI     &kp SINGLE_QUOTE
+                &kp CLCK    &trans          &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &trans
             >;
         };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
