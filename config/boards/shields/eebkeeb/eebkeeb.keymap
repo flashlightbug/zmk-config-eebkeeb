@@ -31,7 +31,7 @@
 
         /*three_layer {
             bindings = <
-                &kp EXCEL     &kp AT     &kp POUND     &kp DOLLAR     &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR
+                &kp EXL       &kp AT     &kp POUND     &kp DLLR       &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &kp TILDE    &kp GRAVE
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &trans       &trans        &trans
             >;
