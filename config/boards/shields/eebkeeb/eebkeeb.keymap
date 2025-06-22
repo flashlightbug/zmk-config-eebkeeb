@@ -12,13 +12,6 @@
     chain-length = <31>;
 };
 
-behaviors {
-  rgb_toggle: rgb_toggle {
-    compatible = "zmk,behavior-macro";
-    #bindings = <&rgb_ug RGB_TOG>;
-    bindings = <&rgb_ug RGB_TOG>;
-  };
-};
 
 / {
 behaviors {
@@ -33,6 +26,16 @@ behaviors {
     bindings = <&kp>, <&kp>;
   };
 };
+
+
+behaviors {
+  rgb_toggle: rgb_toggle {
+    compatible = "zmk,behavior-macro";
+    #bindings = <&rgb_ug RGB_TOG>;
+    bindings = <&rgb_ug RGB_TOG>;
+  };
+};
+
 
 
     keymap {
