@@ -9,8 +9,9 @@
 };
 
 &led_strip {
-    chain-length = <21>;
+    chain-length = <31>;
 };
+
 
 / {
 behaviors {
@@ -23,6 +24,14 @@ behaviors {
     quick-tap-ms = <150>;
     global-quick-tap;
     bindings = <&kp>, <&kp>;
+  };
+};
+
+behaviors {
+  rgb_toggle: rgb_toggle {
+    compatible = "zmk,behavior-macro";
+    #bindings = <&rgb_ug RGB_TOG>;
+    bindings = <&rgb_ug RGB_TOG>;
   };
 };
 
@@ -71,9 +80,9 @@ behaviors {
         };
         bt_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans          &trans     &trans     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2
-                &trans     &trans     &trans     &trans     &trans          &trans     &trans     &trans           &trans           &trans
-                &trans     &trans     &trans     &trans     &bootloader     &trans     &trans     &trans           &trans           &trans         &trans
+                &rgb_toggle     &trans     &trans     &trans     &trans          &trans     &trans     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2
+                &trans          &trans     &trans     &trans     &trans          &trans     &trans     &trans           &trans           &trans
+                &trans          &trans     &trans     &trans     &bootloader     &trans     &trans     &trans           &trans           &trans         &trans
             >;
         };
     };
