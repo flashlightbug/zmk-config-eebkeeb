@@ -13,17 +13,6 @@
       #binding-cells = <0>;
     };
   };
-  keymap {
-    compatible = "zmk,keymap";
-    main_layer {
-      bindings = <
-        &kp A &kp B &kp C
-        &kp D &kp E &kp F
-        &key_repeat &kp G &kp H
-      >;
-    };
-  };
-};
 
 
 
