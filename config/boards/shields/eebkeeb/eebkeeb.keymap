@@ -17,24 +17,26 @@
             bindings = <
                 &kp ESC     &trans     &trans     &trans     &trans     &kp MINUS     &kp EQUAL     &kp LBKT     &kp RBKT     &kp BSLH
                 &kp TAB     &trans     &trans     &trans     &trans     &kp COMMA     &kp DOT       &kp FSLH     &kp SEMI     &kp SINGLE_QUOTE
-                &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &kp KP_N3
+                &kp CLCK    &trans     &trans     &trans     &trans     &trans        &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT            &trans
             >;
         };
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /*two_layer {
             bindings = <
                 &trans     &trans     &trans     &trans     &trans     &kp UNDER     &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
                 &trans     &trans     &trans     &trans     &trans     &kp LT        &kp GT       &kp QMARK    &kp SEMI     &kp QUOTE
                 &trans     &trans     &trans     &trans     &trans     &trans        &kp HOME     &kp PG_UP    &kp PG_DN    &kp END     &trans
             >;
-        };*/
+        };
+
         three_layer {
             bindings = <
                 &kp EXCEL     &kp AT     &kp POUND     &kp DOLLAR     &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &kp TILDE    &kp GRAVE
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &trans       &trans        &trans
             >;
-        };
+        };*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         four_layer {
             bindings = <
                 &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
