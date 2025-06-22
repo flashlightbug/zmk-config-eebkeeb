@@ -6,21 +6,17 @@
 
 
 
+
+
+
+
+
 / {
-  behaviors {
-    repeat_key: repeat_key {
-      compatible = "zmk,behavior-key-repeat";
-      #binding-cells = <0>;
-    };
+behaviors {
+  repeat_key: repeat_key {
+    compatible = "zmk,behavior-key-repeat";
+    #binding-cells = <0>;
   };
-
-
-
-
-
-
-
-/ {
     keymap {
         compatible = "zmk,keymap";
 
