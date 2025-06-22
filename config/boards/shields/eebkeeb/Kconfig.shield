@@ -1,2 +1,5 @@
 config SHIELD_EEBKEEB
   def_bool $(shields_list_contains, EEBKEEB)
+
+CONFIG_ZMK_RGB_UNDERGLOW=y
+CONFIG_ZMK_RGB_UNDERGLOW_EFF_START=0
