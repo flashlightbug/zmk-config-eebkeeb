@@ -2,6 +2,55 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+
+
+
+
+// Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
+&lt { quick-tap-ms = <200>; };
+
+/ {
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <225>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+        combo_z {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp Z>;
+        };
+        combo_b {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp B>;
+        };
+
+        combo_y {
+            timeout-ms = <50>;
+            key-positions = <23 24>;
+            bindings = <&kp Y>;
+        };
+
+        combo_slash {
+            timeout-ms = <50>;
+            key-positions = <24 25>;
+            bindings = <&kp SLASH>;
+        };
+    };
+
+
+
+
+
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -11,7 +60,7 @@
         default_layer {
             bindings = <
                 &kp Q         &kp W        &kp E     &kp R     &kp T        &kp Y         &kp U     &kp I     &kp O         &kp P
-                &kp A         &kp S        &kp D     &kp F     &kp G        &kp H         &key_repeat J     &kp K     &kp L         &kp RSHIFT
+                &kp A         &kp S        &kp D     &kp F     &kp G        &kp H         &kp J     &kp K     &kp L         &kp RSHIFT
                 &mt LCTRL Z   &mt LALT X   &lt 1 C   &lt 2 V   &lt 3 BSPC   &lt 4 SPACE   &lt 5 B   &kp N     &mt RCTRL M   &kp ENTER     &kp RGUI
             >;
         };
