@@ -8,6 +8,9 @@
     quick-tap-ms = <200>;
 };
 
+&led_strip {
+    chain-length = <21>;
+};
 
 / {
 behaviors {
