@@ -12,6 +12,13 @@
     chain-length = <31>;
 };
 
+behaviors {
+  rgb_toggle: rgb_toggle {
+    compatible = "zmk,behavior-macro";
+    #bindings = <&rgb_ug RGB_TOG>;
+    bindings = <&rgb_ug RGB_TOG>;
+  };
+};
 
 / {
 behaviors {
@@ -58,7 +65,7 @@ behaviors {
 
         three_layer {
             bindings = <
-                &kp EXCL       &kp AT     &kp POUND     &kp DLLR       &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR
+                &kp EXCL      &kp AT     &kp POUND     &kp DLLR       &kp PRCNT     &kp CARET     &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &kp TILDE    &kp GRAVE
                 &trans        &trans     &trans        &trans         &trans        &trans        &trans       &trans       &trans       &trans        &trans
             >;
