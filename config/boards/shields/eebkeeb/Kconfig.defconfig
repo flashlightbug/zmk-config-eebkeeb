@@ -2,17 +2,5 @@ if SHIELD_EEBKEEB
 
 config ZMK_KEYBOARD_NAME
   default "EEBKEEB"
-  CONFIG_ZMK_BACKLIGHT=y
-  CONFIG_ZMK_RGB_UNDERGLOW=y
-  CONFIG_ZMK_RGB_UNDERGLOW_EFF_START=0
+
 endif
-
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
