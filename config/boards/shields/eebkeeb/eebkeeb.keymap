@@ -8,9 +8,6 @@
     quick-tap-ms = <200>;
 };
 
-&led_strip {
-    chain-length = <31>;
-};
 
 
 / {
@@ -27,13 +24,6 @@ behaviors {
   };
 };
 
-behaviors {
-  rgb_toggle: rgb_toggle {
-    compatible = "zmk,behavior-macro";
-    #bindings = <&rgb_ug RGB_TOG>;
-    bindings = <&rgb_ug RGB_TOG>;
-  };
-};
 
     keymap {
         compatible = "zmk,keymap";
